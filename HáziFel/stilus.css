@@ -1,0 +1,13 @@
+fieldset{
+    width: 500px;
+    height: 120px;
+    border: 2px gray solid;
+    margin: auto;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 10px 15px darkgoldenrod;
+}
+
+legend{
+    font-size: 20px;
+}

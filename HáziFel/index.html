@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilus.css">
+    <script src="js.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Derékszögű háromszög oldalhosszai</legend>
+        <label for="">egyik befogó</label>
+        <input type="text" name="aBefogo" id="aBefogo"><br>
+        <label for="">másik befogó</label>
+        <input type="text" name="bBefogo" id="bBefogo"><br>
+        <label for="">átfogó</label>
+        <input type="text" name="atfogo" id="atfogo">
+        <hr>
+        <input type="button" onclick="megSzerkeztheto()" value="Megszerkezthető?">
+        <input type="button" onclick="veletlenSzam()" value="Véletlen oldalhosszak 10..100-ból">
+        <input type="button" onclick="atfogoKiszamol()" value="Átfogó kiszámítása">
+    </fieldset>
+</body>
+</html>
